@@ -1,0 +1,22 @@
+{
+  "name": "arafath/mailgun",
+  "description": "This is the description of the project.",
+  "license": "MIT",
+  "minimum-stability": "dev",
+  "require": {
+    "php": ">=7.0",
+    "mailgun/mailgun-php": "^3.5",
+    "kriswallsmith/buzz": "dev-master",
+    "nyholm/psr7": "^1.6@dev"
+  },
+  "autoload": {
+    "psr-0": {
+      "HelloWorld": "src/"
+    }
+  },
+  "config": {
+    "allow-plugins": {
+      "php-http/discovery": true
+    }
+  }
+}
